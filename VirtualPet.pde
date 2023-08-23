@@ -11,17 +11,17 @@ color c = color(255, 178, 102);
 fill(c);
 triangle(220, 190, 282, 80, 297, 190);
 triangle(100, 190, 122, 80, 197, 190);
-circle(200, 200, 200);
+ellpise(200, 200, 200, 200);
 
 color w = color(255, 255 , 255);
 fill(w);
-circle(150, 170, 30);
-circle(250, 170, 30);
+ellpise(150, 170, 30, 30);
+ellpise(250, 170, 30, 30);
 
 color b = color(0, 0, 0);
 fill(b);
-circle(150, 170, 10);
-circle(250, 170, 10);
+ellpise(150, 170, 10, 10);
+ellpise(250, 170, 10, 10);
 
 fill(w);
 arc(200, 210, 200, 190, 0, PI/1);
